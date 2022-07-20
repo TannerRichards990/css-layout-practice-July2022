@@ -33,3 +33,64 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.container * {
+    border: solid 1px black;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+    min-width: 1000px;
+    width: 80%;
+    display: grid;
+    grid-template-rows: 10% 40% 50%;
+}
+
+.logo-bar {
+    display: grid;
+    grid-template-columns: 10% 15% 15% 15%;
+    text-align: center;
+    color:blue;
+    background-color: grey;
+}
+
+
+.middle-row {
+    display: grid;
+    grid-template-rows: 100%; 
+    text-align: center;
+    color:blue;
+    background-color: grey;
+}
+
+.main { 
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: grey;
+
+}
+
+.bottom-boxes {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.right-box {
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 25% 25%;
+}
+
+.Article {
+    text-align: center;
+    color: blue;
+
+}
